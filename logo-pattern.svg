@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Restaurant Sayqal Pattern</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="goldGradient">
+            <stop stop-color="#D4AF37" offset="0%"></stop>
+            <stop stop-color="#FDE992" offset="50%"></stop>
+            <stop stop-color="#D4AF37" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" fill="none" fill-rule="evenodd">
+        <!-- Outer Circle -->
+        <circle stroke="url(#goldGradient)" stroke-width="4" cx="100" cy="100" r="94"></circle>
+        
+        <!-- Inner Circle -->
+        <circle stroke="url(#goldGradient)" stroke-width="2" cx="100" cy="100" r="70"></circle>
+        
+        <!-- Center Circle -->
+        <circle fill="url(#goldGradient)" cx="100" cy="100" r="20"></circle>
+        
+        <!-- Decorative Elements - Lines -->
+        <g stroke="url(#goldGradient)" stroke-width="3" stroke-linecap="round">
+            <!-- Diagonal lines -->
+            <line x1="35" y1="35" x2="60" y2="60"></line>
+            <line x1="165" y1="35" x2="140" y2="60"></line>
+            <line x1="35" y1="165" x2="60" y2="140"></line>
+            <line x1="165" y1="165" x2="140" y2="140"></line>
+            
+            <!-- Cross pattern -->
+            <line x1="100" y1="22" x2="100" y2="50"></line>
+            <line x1="100" y1="150" x2="100" y2="178"></line>
+            <line x1="22" y1="100" x2="50" y2="100"></line>
+            <line x1="150" y1="100" x2="178" y2="100"></line>
+        </g>
+        
+        <!-- Decorative Uzbek Patterns -->
+        <g fill="url(#goldGradient)">
+            <!-- Top pattern -->
+            <path d="M100,30 C105,30 110,32 110,38 C110,44 105,46 100,46 C95,46 90,44 90,38 C90,32 95,30 100,30 Z"></path>
+            
+            <!-- Bottom pattern -->
+            <path d="M100,154 C105,154 110,156 110,162 C110,168 105,170 100,170 C95,170 90,168 90,162 C90,156 95,154 100,154 Z"></path>
+            
+            <!-- Left pattern -->
+            <path d="M46,100 C46,105 44,110 38,110 C32,110 30,105 30,100 C30,95 32,90 38,90 C44,90 46,95 46,100 Z"></path>
+            
+            <!-- Right pattern -->
+            <path d="M170,100 C170,105 168,110 162,110 C156,110 154,105 154,100 C154,95 156,90 162,90 C168,90 170,95 170,100 Z"></path>
+            
+            <!-- Small Decorative Dots -->
+            <circle cx="70" cy="70" r="4"></circle>
+            <circle cx="130" cy="70" r="4"></circle>
+            <circle cx="70" cy="130" r="4"></circle>
+            <circle cx="130" cy="130" r="4"></circle>
+        </g>
+        
+        <!-- S letter in the middle (Sayqal) -->
+        <text font-family="serif" font-size="24" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle" x="100" y="106">S</text>
+    </g>
+</svg> 
+ 
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Restaurant Sayqal Pattern</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="goldGradient">
+            <stop stop-color="#D4AF37" offset="0%"></stop>
+            <stop stop-color="#FDE992" offset="50%"></stop>
+            <stop stop-color="#D4AF37" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" fill="none" fill-rule="evenodd">
+        <!-- Outer Circle -->
+        <circle stroke="url(#goldGradient)" stroke-width="4" cx="100" cy="100" r="94"></circle>
+        
+        <!-- Inner Circle -->
+        <circle stroke="url(#goldGradient)" stroke-width="2" cx="100" cy="100" r="70"></circle>
+        
+        <!-- Center Circle -->
+        <circle fill="url(#goldGradient)" cx="100" cy="100" r="20"></circle>
+        
+        <!-- Decorative Elements - Lines -->
+        <g stroke="url(#goldGradient)" stroke-width="3" stroke-linecap="round">
+            <!-- Diagonal lines -->
+            <line x1="35" y1="35" x2="60" y2="60"></line>
+            <line x1="165" y1="35" x2="140" y2="60"></line>
+            <line x1="35" y1="165" x2="60" y2="140"></line>
+            <line x1="165" y1="165" x2="140" y2="140"></line>
+            
+            <!-- Cross pattern -->
+            <line x1="100" y1="22" x2="100" y2="50"></line>
+            <line x1="100" y1="150" x2="100" y2="178"></line>
+            <line x1="22" y1="100" x2="50" y2="100"></line>
+            <line x1="150" y1="100" x2="178" y2="100"></line>
+        </g>
+        
+        <!-- Decorative Uzbek Patterns -->
+        <g fill="url(#goldGradient)">
+            <!-- Top pattern -->
+            <path d="M100,30 C105,30 110,32 110,38 C110,44 105,46 100,46 C95,46 90,44 90,38 C90,32 95,30 100,30 Z"></path>
+            
+            <!-- Bottom pattern -->
+            <path d="M100,154 C105,154 110,156 110,162 C110,168 105,170 100,170 C95,170 90,168 90,162 C90,156 95,154 100,154 Z"></path>
+            
+            <!-- Left pattern -->
+            <path d="M46,100 C46,105 44,110 38,110 C32,110 30,105 30,100 C30,95 32,90 38,90 C44,90 46,95 46,100 Z"></path>
+            
+            <!-- Right pattern -->
+            <path d="M170,100 C170,105 168,110 162,110 C156,110 154,105 154,100 C154,95 156,90 162,90 C168,90 170,95 170,100 Z"></path>
+            
+            <!-- Small Decorative Dots -->
+            <circle cx="70" cy="70" r="4"></circle>
+            <circle cx="130" cy="70" r="4"></circle>
+            <circle cx="70" cy="130" r="4"></circle>
+            <circle cx="130" cy="130" r="4"></circle>
+        </g>
+        
+        <!-- S letter in the middle (Sayqal) -->
+        <text font-family="serif" font-size="24" font-weight="bold" fill="url(#goldGradient)" text-anchor="middle" x="100" y="106">S</text>
+    </g>
+</svg> 
+ 
