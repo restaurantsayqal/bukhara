@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/bukhara/static/css/main.3b125d26.css",
-    "main.js": "/bukhara/static/js/main.29cf2e97.js",
+    "main.js": "/bukhara/static/js/main.c89f01ad.js",
     "static/js/453.3257c68d.chunk.js": "/bukhara/static/js/453.3257c68d.chunk.js",
     "static/media/sayqallogo.png": "/bukhara/static/media/sayqallogo.7c490aa26503319ecc6a.png",
     "index.html": "/bukhara/index.html",
     "main.3b125d26.css.map": "/bukhara/static/css/main.3b125d26.css.map",
-    "main.29cf2e97.js.map": "/bukhara/static/js/main.29cf2e97.js.map",
+    "main.c89f01ad.js.map": "/bukhara/static/js/main.c89f01ad.js.map",
     "453.3257c68d.chunk.js.map": "/bukhara/static/js/453.3257c68d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b125d26.css",
-    "static/js/main.29cf2e97.js"
+    "static/js/main.c89f01ad.js"
   ]
 }
