@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/bukhara/static/css/main.a4e30386.css",
-    "main.js": "/bukhara/static/js/main.df7a5d6a.js",
+    "main.css": "/bukhara/static/css/main.69f10902.css",
+    "main.js": "/bukhara/static/js/main.d4a114ac.js",
     "static/css/996.d8abd706.chunk.css": "/bukhara/static/css/996.d8abd706.chunk.css",
     "static/js/996.5e98f0cd.chunk.js": "/bukhara/static/js/996.5e98f0cd.chunk.js",
-    "static/js/487.1690b319.chunk.js": "/bukhara/static/js/487.1690b319.chunk.js",
+    "static/js/487.49f79059.chunk.js": "/bukhara/static/js/487.49f79059.chunk.js",
     "static/js/453.584e3e5b.chunk.js": "/bukhara/static/js/453.584e3e5b.chunk.js",
     "static/js/990.6f817853.chunk.js": "/bukhara/static/js/990.6f817853.chunk.js",
-    "static/js/800.090ae006.chunk.js": "/bukhara/static/js/800.090ae006.chunk.js",
+    "static/js/282.5df83df9.chunk.js": "/bukhara/static/js/282.5df83df9.chunk.js",
     "static/js/540.3bfc3d78.chunk.js": "/bukhara/static/js/540.3bfc3d78.chunk.js",
-    "static/js/0.73df930c.chunk.js": "/bukhara/static/js/0.73df930c.chunk.js",
+    "static/js/184.9bd7cafd.chunk.js": "/bukhara/static/js/184.9bd7cafd.chunk.js",
     "static/js/555.363d2fde.chunk.js": "/bukhara/static/js/555.363d2fde.chunk.js",
     "static/media/sayqallogo.png": "/bukhara/static/media/sayqallogo.7c490aa26503319ecc6a.png",
     "index.html": "/bukhara/index.html",
-    "main.a4e30386.css.map": "/bukhara/static/css/main.a4e30386.css.map",
-    "main.df7a5d6a.js.map": "/bukhara/static/js/main.df7a5d6a.js.map",
+    "main.69f10902.css.map": "/bukhara/static/css/main.69f10902.css.map",
+    "main.d4a114ac.js.map": "/bukhara/static/js/main.d4a114ac.js.map",
     "996.d8abd706.chunk.css.map": "/bukhara/static/css/996.d8abd706.chunk.css.map",
     "996.5e98f0cd.chunk.js.map": "/bukhara/static/js/996.5e98f0cd.chunk.js.map",
-    "487.1690b319.chunk.js.map": "/bukhara/static/js/487.1690b319.chunk.js.map",
+    "487.49f79059.chunk.js.map": "/bukhara/static/js/487.49f79059.chunk.js.map",
     "453.584e3e5b.chunk.js.map": "/bukhara/static/js/453.584e3e5b.chunk.js.map",
     "990.6f817853.chunk.js.map": "/bukhara/static/js/990.6f817853.chunk.js.map",
-    "800.090ae006.chunk.js.map": "/bukhara/static/js/800.090ae006.chunk.js.map",
+    "282.5df83df9.chunk.js.map": "/bukhara/static/js/282.5df83df9.chunk.js.map",
     "540.3bfc3d78.chunk.js.map": "/bukhara/static/js/540.3bfc3d78.chunk.js.map",
-    "0.73df930c.chunk.js.map": "/bukhara/static/js/0.73df930c.chunk.js.map",
+    "184.9bd7cafd.chunk.js.map": "/bukhara/static/js/184.9bd7cafd.chunk.js.map",
     "555.363d2fde.chunk.js.map": "/bukhara/static/js/555.363d2fde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e30386.css",
-    "static/js/main.df7a5d6a.js"
+    "static/css/main.69f10902.css",
+    "static/js/main.d4a114ac.js"
   ]
 }
