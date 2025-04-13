@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/bukhara/static/css/main.add7db18.css",
-    "main.js": "/bukhara/static/js/main.fb0cdfc9.js",
+    "main.css": "/bukhara/static/css/main.98151738.css",
+    "main.js": "/bukhara/static/js/main.568b4eb7.js",
     "static/css/996.d8abd706.chunk.css": "/bukhara/static/css/996.d8abd706.chunk.css",
     "static/js/996.5e98f0cd.chunk.js": "/bukhara/static/js/996.5e98f0cd.chunk.js",
-    "static/js/443.a6fdb7a9.chunk.js": "/bukhara/static/js/443.a6fdb7a9.chunk.js",
+    "static/js/487.2570dcb6.chunk.js": "/bukhara/static/js/487.2570dcb6.chunk.js",
     "static/js/453.584e3e5b.chunk.js": "/bukhara/static/js/453.584e3e5b.chunk.js",
     "static/js/990.6f817853.chunk.js": "/bukhara/static/js/990.6f817853.chunk.js",
     "static/js/800.090ae006.chunk.js": "/bukhara/static/js/800.090ae006.chunk.js",
-    "static/js/540.9337c436.chunk.js": "/bukhara/static/js/540.9337c436.chunk.js",
+    "static/js/540.3bfc3d78.chunk.js": "/bukhara/static/js/540.3bfc3d78.chunk.js",
     "static/js/0.73df930c.chunk.js": "/bukhara/static/js/0.73df930c.chunk.js",
     "static/js/555.363d2fde.chunk.js": "/bukhara/static/js/555.363d2fde.chunk.js",
     "static/media/sayqallogo.png": "/bukhara/static/media/sayqallogo.7c490aa26503319ecc6a.png",
     "index.html": "/bukhara/index.html",
-    "main.add7db18.css.map": "/bukhara/static/css/main.add7db18.css.map",
-    "main.fb0cdfc9.js.map": "/bukhara/static/js/main.fb0cdfc9.js.map",
+    "main.98151738.css.map": "/bukhara/static/css/main.98151738.css.map",
+    "main.568b4eb7.js.map": "/bukhara/static/js/main.568b4eb7.js.map",
     "996.d8abd706.chunk.css.map": "/bukhara/static/css/996.d8abd706.chunk.css.map",
     "996.5e98f0cd.chunk.js.map": "/bukhara/static/js/996.5e98f0cd.chunk.js.map",
-    "443.a6fdb7a9.chunk.js.map": "/bukhara/static/js/443.a6fdb7a9.chunk.js.map",
+    "487.2570dcb6.chunk.js.map": "/bukhara/static/js/487.2570dcb6.chunk.js.map",
     "453.584e3e5b.chunk.js.map": "/bukhara/static/js/453.584e3e5b.chunk.js.map",
     "990.6f817853.chunk.js.map": "/bukhara/static/js/990.6f817853.chunk.js.map",
     "800.090ae006.chunk.js.map": "/bukhara/static/js/800.090ae006.chunk.js.map",
-    "540.9337c436.chunk.js.map": "/bukhara/static/js/540.9337c436.chunk.js.map",
+    "540.3bfc3d78.chunk.js.map": "/bukhara/static/js/540.3bfc3d78.chunk.js.map",
     "0.73df930c.chunk.js.map": "/bukhara/static/js/0.73df930c.chunk.js.map",
     "555.363d2fde.chunk.js.map": "/bukhara/static/js/555.363d2fde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.add7db18.css",
-    "static/js/main.fb0cdfc9.js"
+    "static/css/main.98151738.css",
+    "static/js/main.568b4eb7.js"
   ]
 }
