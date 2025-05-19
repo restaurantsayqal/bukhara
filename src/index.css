@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Для iOS плавной прокрутки */
+  }
+  
+  body {
+    @apply font-inter text-sayqal-light;
+    background-color: #f8f8f8;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain; /* Предотвращает перетаскивание страницы на мобильных */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+  
+  img.loading {
+    @apply opacity-0;
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  img.loaded {
+    @apply opacity-100;
+  }
+}
+
+@layer components {
+  .menu-container {
+    @apply max-w-7xl mx-auto px-5 sm:px-6 lg:px-8;
+    min-height: 50vh; /* Ensure minimum height on smaller screens */
+  }
+
+  .food-card {
+    @apply bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300;
+    border: 1px solid rgba(150, 69, 60, 0.05);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform, box-shadow;
+    opacity: 1 !important; /* Ensure visibility on mobile */
+    transform: translateY(0) !important; /* Prevent transform issues on mobile */
+  }
+  
+  .food-card:hover {
+    @apply shadow-lg;
+    transform: translateY(-3px);
+    border-color: rgba(150, 69, 60, 0.1);
+  }
+
+  .food-card-image {
+    @apply h-52 object-cover w-full;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+
+  /* Mobile-specific adjustments */
+  @media (max-width: 640px) {
+    .menu-section {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      display: block !important;
+      visibility: visible !important;
+    }
+    
+    .menu-grid {
+      opacity: 1 !important;
+      transform: none !important;
+      display: grid !important;
+      visibility: visible !important;
+      min-height: 200px !important;
+    }
+    
+    .menu-item {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      display: block !important;
+      visibility: visible !important;
+    }
+    
+    .food-card {
+      opacity: 1 !important;
+      transform: none !important;
+      display: flex !important;
+      visibility: visible !important;
+      position: relative !important;
+      z-index: 10 !important;
+    }
+  }
+
+  .close-button {
+    @apply fixed top-5 right-5 z-10 bg-sayqal-light bg-opacity-80 backdrop-blur-md rounded-full px-4 py-2 shadow-md;
+    border: 1px solid rgba(150, 69, 60, 0.1);
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-sayqal-gold text-white rounded-full shadow-sm transition-all duration-300;
+    background-image: linear-gradient(45deg, #96453C, #AD8424);
+  }
+  
+  .btn-primary:hover {
+    @apply shadow-md;
+    transform: translateY(-2px);
+  }
+  
+  .section-divider {
+    @apply my-12 relative;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(150, 69, 60, 0.3), transparent);
+  }
+  
+  .section-divider::before {
+    content: "❖";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @apply text-sayqal-gold bg-sayqal-light px-4;
+  }
+  
+  .content-card {
+    @apply bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300;
+    border: 1px solid rgba(150, 69, 60, 0.08);
+  }
+  
+  .fancy-heading {
+    @apply font-playfair font-bold text-sayqal-burgundy relative inline-block;
+  }
+  
+  .fancy-heading::after {
+    content: "";
+    @apply absolute bg-sayqal-gold h-1 w-1/2 left-0 -bottom-2 rounded-full;
+  }
+  
+  .scale-on-hover {
+    @apply transition-transform duration-300;
+  }
+  
+  .scale-on-hover:hover {
+    transform: scale(1.03);
+  }
+  
+  .nav-link {
+    @apply relative px-2 py-1 text-sayqal-burgundy transition-colors duration-300;
+    overflow: hidden;
+  }
+  
+  .nav-link::after {
+    content: '';
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-sayqal-gold transition-all duration-300 rounded-full;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .nav-link.active::after {
+    @apply w-full;
+  }
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-sayqal-cream;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sayqal-gold rounded-full;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  will-change: opacity;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  will-change: transform, opacity;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(173, 132, 36, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(173, 132, 36, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(173, 132, 36, 0); }
+}
+
+.pattern-dot {
+  background-image: radial-gradient(rgba(150, 69, 60, 0.2) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.golden-gradient {
+  background: linear-gradient(45deg, #96453C, #AD8424);
+}
+
+@media (max-width: 768px) {
+  .animate-slide-up,
+  .animate-fade-in,
+  .animate-scale-in {
+    animation-duration: 0.3s;
+  }
+  
+  .food-card-image {
+    height: 180px;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+  }
+  
+  .logo { 
+    max-width: 80px !important; 
+    margin-left: 0.5rem; 
+  }
+  
+  .hero { 
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: scroll !important; 
+    min-height: 100vh !important;
+  }
+  
+  .carousel img { 
+    width: 100% !important; 
+    height: auto !important; 
+  }
+  
+  /* Additional mobile optimizations */
+  .food-card { margin-bottom: 1.5rem; }
+  .food-card-image { height: 160px; }
+  h1, h2 { font-size: 1.75rem !important; }
+  h3 { font-size: 1.25rem !important; }
+  .content-card { padding: 1rem; }
+  
+  /* Fix gallery image display on small screens */
+  .gallery-image { 
+    width: 100% !important; 
+    height: 220px !important;
+    object-fit: cover !important;
+  }
+  
+  /* Better spacing for mobile - reduced padding */
+  .px-4 { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+  .px-6 { padding-left: 1rem !important; padding-right: 1rem !important; }
+  .px-8 { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+  
+  .py-10 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+  .py-12 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  .py-16 { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  
+  .my-10 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+  .my-12 { margin-top: 2rem !important; margin-bottom: 2rem !important; }
+  
+  /* Improve touch targets for mobile */
+  button, a { 
+    min-height: 44px; 
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Fix layout on smaller devices */
+  .flex-col-mobile {
+    flex-direction: column !important;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh !important;
+  }
+  
+  /* Optimize image rendering on mobile */
+  img {
+    image-rendering: auto;
+    will-change: transform;
+  }
+  
+  /* Fix scroll lag */
+  .fixed {
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+}
+
+/* Specific iPhone optimization */
+@media screen and (max-width: 428px) {
+  .nav-link { padding: 0.5rem 0.25rem; }
+  .container { padding-left: 1rem; padding-right: 1rem; }
+  .menu-container { 
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem; 
+    min-height: auto !important;
+    margin-bottom: 20px !important;
+    display: block !important;
+  }
+  
+  /* Force menu items to display */
+  #salads, #soups, #mainDishes, #kebabs, #lunchboxes, #sets, #sauces {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

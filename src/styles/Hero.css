@@ -1,0 +1,97 @@
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Certificate styling */
+.certificate-container {
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.certificate-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-image-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.certificate-image {
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.certificate-container:hover .certificate-image {
+  transform: scale(1.08);
+}
+
+/* Modal styles for certificate */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.98);
+  overflow: hidden;
+}
+
+.modal-image {
+  object-fit: contain;
+  max-height: 85vh;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  padding: 12px;
+}
+
+/* Media queries for small screens */
+@media (max-width: 768px) {
+  .certificate-container {
+    margin-top: 2rem;
+  }
+  
+  .modal-content {
+    max-width: 95vw;
+    width: 95vw;
+    margin: 0 auto;
+    max-height: 85vh;
+  }
+  
+  .modal-image {
+    max-height: 70vh;
+  }
+} 
