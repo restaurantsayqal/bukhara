@@ -228,7 +228,7 @@ function App() {
         scrollToHashElement(location.hash);
       }, 800); // Longer initial delay
     }
-  }, []);
+  }, [location.hash]);
 
   // Fix for scroll lag
   useEffect(() => {
@@ -275,4 +275,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
